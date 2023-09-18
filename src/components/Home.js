@@ -2,12 +2,12 @@ import React from 'react'
 import './Home.css'
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
 import{FaFacebook,FaLinkedin,FaGithub,FaInstagram}from 'react-icons/fa'
-import vanit from "../resume/vanit.pdf";
+import vanit from "../resume/Vanit.pdf";
  import vanitphoto from "../images/vanitphoto.png"
 
 const Home = (props) => {
   const [text] = useTypewriter({
-    words:['Front End Developer','React Js Developer','Freelancer'],
+    words:['Front End Developer','React Js Developer'],
     loop:{},
     typeSpeed: 50,
     deleteSpeed: 150,
