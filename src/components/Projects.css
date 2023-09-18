@@ -1,0 +1,277 @@
+.projects{
+    position: relative;
+    background-image: linear-gradient(to right, #040b1b, #0d1b2e, #102843, #0f3758, #05466f);
+    
+    padding: 30px 0;
+    font-family: cursive;
+   
+    
+    /* height: calc(100vh - 80px); */
+
+    /* margin: 30px; */
+  
+    
+}
+.projecttitle{
+  
+  color: white;
+  font-size: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.projecttitle:hover{
+  color:#40E0D0 ;
+  cursor: pointer;
+}
+.projectcontainer{
+    display: flex;
+  padding: 20px 0;
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+}
+/* .prebtn,.nextbtn{
+    height: 90%;
+    width: 60px;
+    background-color: aquamarine;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    top: 0;
+    border: none;
+   cursor: pointer;
+  }
+  
+.prebtn{
+    left: 0;
+  }
+  .nextbtn{
+    right: 0;
+  }
+  .prebtn p,.nextbtn p{
+    font-size: 50px;
+  } */
+  
+  
+
+ .projectcart{
+    min-width: 300px;
+    height: 200px;
+    transition: 0.8s;
+    background-color: #40E0D0;
+    margin: 80px;
+    position: relative;
+  
+    padding: 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+
+ }
+ .projectcart:hover{
+    height: 300px;
+ }
+
+ .projectcart:hover >.content{
+  opacity: 1;
+  transition: 0.8s;
+  transform: translateY(-40px);
+ }
+
+
+ .content a{
+  padding: 20px;
+  color: black;
+ }
+
+ 
+ .FaRegWindowMaximize{
+  
+  padding:  15px 0;
+ }
+ .FaRegWindowMaximize:hover{
+  color: azure;
+  font-size: 18px;
+  
+ }
+ .FaGithub{
+  
+  padding: 15px 0;
+ }
+ 
+ .FaGithub:hover{
+  color: azure;
+  font-size: 18px;
+ 
+ }
+
+
+
+ .imgcontainer{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 7px;
+  z-index: 1;
+ }
+
+ .imgcontainer img{
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  border-radius: 7px;
+ }
+ .content{
+  padding: 10x 20px;
+  text-align: center;
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+ }
+
+ @media screen  and (max-width: 991px){
+
+  .projectcart{
+    min-width: 200px;
+    height: 140px;
+    transition: 0.8s;
+   
+    margin: 80px;
+    position: relative;
+  
+    padding: 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+
+ }
+ .imgcontainer{
+  position: relative;
+  width: 200px;
+  height: 140px;
+  border-radius: 7px;
+  z-index: 1;
+ }
+ .projectcart:hover{
+  height: 250px;
+}
+
+.projectcart:hover >.content{
+opacity: 1;
+transform: translateY(0px);
+}
+
+ }
+
+ @media screen  and (max-width: 767px){
+
+  .projectcart{
+    width: 220px;
+    height: 130px;
+    transition: 0.8s;
+   
+    margin: 200px;
+    position: relative;
+  
+    padding: 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+
+ }
+ .imgcontainer{
+  position: relative;
+  width: 220px;
+  height: 140px;
+  border-radius: 7px;
+  z-index: 1;
+ }
+
+ .projectcart:hover{
+  height: 220px;
+}
+
+ }
+ @media screen  and (max-width: 650px){
+  .projectcart{
+    width: 200px;
+    height: 150px;
+    transition: 0.8s;
+    
+    margin: 110px;
+    position: relative;
+  
+    padding: 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+
+ }
+ .imgcontainer{
+  position: relative;
+  width: 195px;
+  height: 150px;
+  border-radius: 7px;
+  z-index: 1;
+ }
+
+ .projecttitle{
+  font-size: 20px;
+  color: white;
+
+ }
+
+ .projectcart:hover{
+  height: 260px;
+}
+.projectcart:hover >.content{
+  opacity: 1;
+  transform: translateY(-50px);
+  }
+ }
+
+ @media screen  and (max-width: 450px){
+
+  .projectcart{
+    max-width: 80px;
+    height: 120px;
+    transition: 0.8s;
+   
+    margin: 80px;
+    position: relative;
+  
+    padding: 20px ;
+    border-radius: 7px;
+    cursor: pointer;
+    
+
+ }
+ .imgcontainer{
+  position: relative;
+  width: 195px;
+  height: 130px;
+  border-radius: 7px;
+  z-index: 1;
+ }
+
+ .projectcart:hover{
+  height: 240px;
+}
+.projectcart:hover >.content{
+  opacity: 1;
+  transform: translateY(-45px);
+  }
+
+  .projecttitle{
+  
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    display:inline;
+ 
+  }
+ }
+
+ 
+
+

@@ -1,0 +1,225 @@
+.about{
+    background-image: linear-gradient(to right, #040b1b, #0d1b2e, #102843, #0f3758, #05466f);
+   
+    display: flex;
+    font-family: cursive;
+}
+
+.lefta{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img-container{
+    width: 600px;
+    height: 450px;
+}
+
+.about-img-container > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.about-img-container:hover{
+    width: 610px;
+    height: 455px;
+    transition: 0.3s;
+}
+
+
+.righta{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutmecontainer{
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutmecontainer h1{
+    padding: 10px;
+    color: whitesmoke;
+}
+.aboutmecontainer h3{
+    padding: 10px;
+    color: whitesmoke;
+}
+.information{
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.skills{
+    padding:  10px;
+
+}
+
+.skills div{
+    padding:  10px 0;
+    margin:  10px 0;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.divskills{
+    font-size: 20px;
+    color: white;
+   
+   
+}
+
+.skills div span{
+    
+    padding: 10px;
+    border: 2px solid;
+    background-color: cyan;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+    color: black;
+    border-color: black;
+    
+
+}
+.skills div span:hover{
+    padding: 12px;
+}
+
+@media screen  and (max-width: 991px){
+    .about-img-container{
+        width: 300px;
+        height: 250px;
+    }
+    .aboutmecontainer h1{
+        font-size: 27px;
+    }
+    .divskills{
+        font-size: 17px;
+    }
+
+    .skills div span{
+    
+        padding: 7px;
+        border: 2px solid;
+       
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 7px 3px;
+    
+        
+    
+    }
+    .skills{
+        padding:  5px;
+    }
+
+}
+@media screen  and (max-width: 767px){
+    .about{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lefta{
+        width: 100%;
+        height: 50%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .about-img-container{
+        width: 320px;
+        height: 220px;
+    }
+    
+    .about-img-container > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        
+    }
+    .about-img-container:hover{
+        width: 324px;
+        height: 224px;
+        transition: 0.3s;
+    }
+
+    .righta{
+        width: 100%;
+        height: 50%;
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divskills{
+        font-size: 14px;
+    }
+    .skills div span{
+    
+        padding: 7px;
+        border: 2px solid;
+     
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 7px 3px;
+      
+        font-size: 15px;
+        
+    
+    }
+    .aboutmecontainer h1{
+       font-size: 22px;
+    }
+    .aboutmecontainer h3{
+        font-size: 18px;
+    }
+}
+
+
+@media screen  and (max-width: 400px){
+    .skills div span{
+    
+        padding: 7px;
+        border: 2px solid;
+        
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 7px 3px;
+       
+        font-size: 12px;
+        
+    
+    }
+
+    .about-img-container{
+        width: 290px;
+        height: 190px;
+    }
+    
+    .about-img-container > img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        
+    }
+    .about-img-container:hover{
+        width: 294px;
+        height: 194px;
+        transition: 0.3s;
+    }
+
+}
