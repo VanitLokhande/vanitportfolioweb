@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import {useTypewriter,Cursor} from 'react-simple-typewriter'
 import{FaFacebook,FaLinkedin,FaGithub,FaInstagram}from 'react-icons/fa'
-import vanit from "../resume/Vanit.pdf";
+import vanit from "../resume/VanitResume.pdf";
  import vanitphoto from "../images/vanitphoto.png"
 
 const Home = (props) => {
